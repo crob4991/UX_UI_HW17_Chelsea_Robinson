@@ -102,3 +102,13 @@ p {
     padding: 10px;
     padding-left: 40px;
 }
+
+
+/*UX|UI Case Studies*/
+
+#hp_uxui {
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "sec_title ux_cs_cards";
+    padding-left: 40pt;
+    padding-right: 0pt;
+}
