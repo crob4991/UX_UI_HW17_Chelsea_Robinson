@@ -111,7 +111,11 @@ p {
     grid-template-areas: "sec_title ux_cs_cards";
     padding-left: 40pt;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-right: 40pt;
+=======
+    padding-right: 0pt;
+>>>>>>> parent of b4fd7f1... Update style.css
 =======
     padding-right: 0pt;
 >>>>>>> parent of b4fd7f1... Update style.css
