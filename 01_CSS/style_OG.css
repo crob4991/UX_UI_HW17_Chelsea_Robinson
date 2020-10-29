@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(242, 245, 249);
+}
+
+
+/* typography */ 
+
+h1 {
+    font-family: ff-market-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50pt;
+    margin: 0;
+}
+
+h2 {
+    font-family: ff-market-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    margin: 0;
+}
+
+h3 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20pt;
+    margin: 0;
+}
+
+h4 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt;
+    margin-bottom: 10pt;
+    margin-top: 4pt;
+}
+
+
+/* Navigation  */
+
+#nav {
+    background-color: #F2F5F9;
+    border: none;
+    box-shadow: 0px 6px 5px rgba(171, 183, 200, 0.3), 0px -6px 5px rgba(255,255,255, 0.3);
+    height: 78px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 45pt;
+    padding-right: 45pt;
+}
+
+.nav_but {
+    border: none;
+    background-color: rgb(242, 245, 249, 0);
+    color: #105383;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#nav_logo {
+    border: none;
+    background-color: rgb(242, 245, 249, 0);
+}
+
+
+/* about me */
+
+#hp_about_me {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+    grid-template-areas: "profile_pic title_1" "profile_pic title_1";
+    padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+#profile_pic {
+    grid-area: profile_pic;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-bottom: -40px;
+}
+
+#title_1 {
+    grid-area: title_1;
+    align-self: center;
+    justify-content: left;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+
+/*UX|UI Case Studies*/
+
+#hp_uxui {
+    grid-template-rows: 20% 80%;
+    grid-template-areas: "sec_title ux_cs_cards";
+    padding-left: 40pt;
