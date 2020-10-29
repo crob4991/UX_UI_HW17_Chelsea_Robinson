@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of e2cf709... Revert "I'm so confused"
 body {
     background-color: rgb(242, 245, 249);
 }
@@ -116,33 +110,4 @@ p {
     grid-template-rows: 20% 80%;
     grid-template-areas: "sec_title ux_cs_cards";
     padding-left: 40pt;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    padding-right: 40pt;
-=======
-    padding-right: 0pt;
->>>>>>> parent of b4fd7f1... Update style.css
-=======
-    padding-right: 0pt;
->>>>>>> parent of b4fd7f1... Update style.css
-=======
-    padding-right: 0pt;
->>>>>>> parent of b4fd7f1... Update style.css
-=======
-.h1 {
-    background-color: teal;
->>>>>>> parent of 4b11113... Update style.css
-=======
-.h1 {
-    background-color: teal;
->>>>>>> parent of 4b11113... Update style.css
-=======
-    padding-right: 40pt;
->>>>>>> parent of e2cf709... Revert "I'm so confused"
-=======
-.h1 {
-    background-color: teal;
->>>>>>> parent of 5cba6cb... Merge pull request #1 from crob4991/10292020
 }
