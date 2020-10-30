@@ -1,5 +1,6 @@
 body {
     background-color: rgb(242, 245, 249);
+    margin: 0 auto;
 }
 
 
@@ -47,7 +48,6 @@ p {
 
 
 /* Navigation  */
-
 #nav {
     background-color: #F2F5F9;
     border: none;
@@ -108,6 +108,26 @@ p {
 
 #hp_uxui {
     grid-template-rows: 20% 80%;
-    grid-template-areas: "sec_title ux_cs_cards";
+    grid-template-areas: "sec_title uxui_cs_cards";
     padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+.sec_title {
+    grid-area: sec_title;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 90px;
+}
+
+.uxui_cs_cards {
+    grid-area: uxui_cs_cards;
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
+
+.id_card {
+    padding: 10px;
 }
