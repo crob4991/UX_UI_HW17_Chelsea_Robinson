@@ -37,6 +37,13 @@ h4 {
     font-size: 14pt;
 }
 
+h5{
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+}
+
 p {
     font-family: futura-pt, sans-serif;
     font-weight: 400;
@@ -51,7 +58,8 @@ p {
 #nav {
     background-color: #F2F5F9;
     border: none;
-    box-shadow: 0px 6px 5px rgba(171, 183, 200, 0.3), 0px -6px 5px rgba(255,255,255, 0.3);
+    box-shadow: 15px 15px 18px #e1e4e8, 
+                -15px -15px 18px #ffffff;
     height: 78px;
     margin-bottom: 12px;
     overflow: hidden;
@@ -69,6 +77,12 @@ p {
     color: #105383;
     padding-left: 30px;
     padding-right: 30px;
+    border-radius: 50px;
+    background: #F2F5F9;
+    box-shadow:  15px 15px 18px #e1e4e8, 
+                -15px -15px 18px #ffffff;
+    height: 50px;
+    min-width: 150px;
 }
 
 #nav_logo {
@@ -103,6 +117,14 @@ p {
     padding-left: 40px;
 }
 
+#more_about_me {
+    border-radius: 50px;
+    background: #F2F5F9;
+    box-shadow:  15px 15px 18px #e1e4e8, 
+                -15px -15px 18px #ffffff;
+    border: none;
+}
+
 
 /*UX|UI Case Studies*/
 
@@ -125,9 +147,22 @@ p {
     grid-area: uxui_cs_cards;
     display: flex;
     align-items: column;
-    justify-content: center;
 }
 
 .id_card {
-    padding: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 41px;
+    background: #F2F5F9;
+    box-shadow:  15px 15px 18px #e1e4e8, 
+                -15px -15px 18px #ffffff;
+}
+
+.cs_button {
+    border-radius: 41px;
+    background: #F2F5F9;
+    box-shadow:  15px 15px 18px #e1e4e8, 
+                -15px -15px 18px #ffffff;
+    border: none;
 }
