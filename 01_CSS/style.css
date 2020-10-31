@@ -83,6 +83,9 @@ p {
                 -15px -15px 18px #ffffff;
     height: 50px;
     min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #nav_logo {
