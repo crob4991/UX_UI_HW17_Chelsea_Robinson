@@ -109,12 +109,12 @@ p {
     grid-template-areas: "profile_pic title_1" "profile_pic title_1";
     padding-left: 40pt;
     padding-right: 40pt;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 #profile_pic {
     grid-area: profile_pic;
-    margin-top: -70px;
+    margin-top: -35px;
     margin-left: -10px;
     margin-bottom: -40px;
 }
@@ -150,13 +150,18 @@ p {
 #hp_uxui {
     grid-template-rows: 20% 80%;
     grid-template-areas: "sec_title uxui_cs_cards";
-    padding: 25pt;
+    padding: 15pt;
     padding-left: 40pt;
     padding-right: 40pt;
     background-color: #B3E0E3;
     background: #B3E0E3;
     box-shadow:  7px 7px 10px #e3e6ea, 
                 -7px -7px 10px #ffffff;
+    background-image: url(../02_Images/glitter_bars.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: 55%;
+    background-position-x: right;
 }
 
 /*.back_img {
@@ -183,7 +188,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 
     /* border-radius: 41px;
     background: #F2F5F9;
