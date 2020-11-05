@@ -148,9 +148,9 @@ p {
 /*UX|UI Case Studies*/
 
 #hp_uxui {
-    grid-template-rows: 20% 80%;
-    grid-template-areas: "sec_title uxui_cs_cards";
-    padding: 15pt;
+    /*grid-template-rows: 20% 80%;
+    grid-template-areas: "sec_title uxui_cs_cards";*/
+    padding: 25pt;
     padding-left: 40pt;
     padding-right: 40pt;
     background-color: #B3E0E3;
@@ -170,25 +170,24 @@ p {
 }*/
 
 .sec_title {
-    grid-area: sec_title;
+    /*grid-area: sec_title;*/
     display: flex;
     justify-content: center;
-    padding: 10px;
-    /*padding-top: 55px;*/
+    padding-bottom: 20px;
 }
 
 .uxui_cs_cards {
-    grid-area: uxui_cs_cards;
+    /*grid-area: uxui_cs_cards;*/
     display: flex;
     align-items: column;
-    column-gap: 15px;
+    justify-content: center;
+    column-gap: 50px;
 }
 
 .id_card {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
 
     /* border-radius: 41px;
     background: #F2F5F9;
@@ -198,15 +197,15 @@ p {
 }
 
 .cs_img img {
-    border-radius: 20px;
-    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-bottom: 25px;
 }
 
 .cs_button {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 41px;
+    border-radius: 40px;
 
     /*background: #F2F5F9;
     box-shadow:  7px 7px 10px #e3e6ea, 
@@ -239,12 +238,20 @@ p {
     margin-bottom: 12px;
     margin-top: 20px;
     overflow: hidden;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "foot_icon_grp back_to_top copyright";
     position: relative;
     align-items: center;
-    padding-left: 45pt;
-    padding-right: 45pt;
-    column-gap: 30px;
+    padding-left: 40pt;
+    padding-right: 40pt;
+}
+
+#foot_icon_grp{
+    grid-area: foot_icon_grp;
+    display: flex;
+    justify-content: left;
+    column-gap: 25px;
 }
 
 .foot_icon {
@@ -262,8 +269,6 @@ p {
     /*background: #F8B7B5;
     box-shadow:  10px 10px 20px #d59d9c, 
                  -10px -10px 20px #ffd1ce;*/
-    
-    column-gap: 15px;
 }
 
 .foot_icon img{
@@ -273,25 +278,29 @@ p {
 
 
 #copyright {
-    display: flex;
+    grid-area: copyright;
+    display: grid;
+    align-items: center;
+    justify-content: right;
 }
 
 
 #back_to_top {
+    grid-area: back_to_top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: rgb(242, 245, 249, 0);
     color: #105383;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     border-radius: 50px;
     background: #F2F5F9;
     box-shadow: 7px 7px 10px #e3e6ea, 
                 -7px -7px 10px #ffffff;
     height: 50px;
     min-width: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
